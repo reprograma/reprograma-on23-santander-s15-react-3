@@ -1,6 +1,16 @@
+import Header from "../components/Header"
+
+import portfolio from '../assets/portfolio.svg'
+
 const Portfolio = () => {
   return (
-    <h1>PORTFOLIO</h1>
+    <>
+      <Header 
+        title="Projetinhos da lili" 
+        image={portfolio} 
+      />
+      <h1>PORTFOLIO</h1>
+    </>
   )
 }
 
