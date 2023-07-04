@@ -2,6 +2,8 @@ import Header from "../components/Header"
 import contato from '../assets/contato.svg'
 import styles from '../styles/pages/contato.module.css'
 import { useState } from "react"
+import dataBase from "../service/firebase"
+import {ref, push,set} from 'firebase/database'
 
 const Contato = () => {
   const [nome, setNome] = useState('')
@@ -20,6 +22,22 @@ const Contato = () => {
     setMensagem(e.target.value)
   }
 
+  function handleSubmit(e) {
+    e.preventDefault()
+
+    const mensagemListRef = ref(dataBase, 'mensagens')
+    const novamensagemRef = push(mensagemListRef)
+    set(novamensagemRef, {
+      nome:nome,
+      email: email,
+      texto: mensagem
+    })
+
+    setNome("")
+    setEmail("")
+    setMensagem("")
+  }
+
   return (
     <>
       <Header 
@@ -27,7 +45,7 @@ const Contato = () => {
         image={contato} 
       />
       <main>
-        <form className={styles.form} onSubmit={()=>{}}>
+        <form className={styles.form} onSubmit={handleSubmit}>
           <input 
             className={styles.formInput}
             type="text"
