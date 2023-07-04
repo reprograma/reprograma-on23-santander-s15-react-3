@@ -103,19 +103,19 @@ Todas as páginas terão os componentes:
 
 `Para segunda`
 
-14) Criar e integrar firebase com variaveis de ambiente na página Contato
-15) Fazer a página Home estilizada
-16) Incluir config da vercel 
-17) Subir no github e fazer deploy (importante criar as variaveis de prod na vercel)
+13) Criar e integrar firebase com variaveis de ambiente na página Contato
+14) Fazer a página Home estilizada
+15) Incluir config da vercel 
+16) Subir no github e fazer deploy (importante criar as variaveis de prod na vercel)
 
 `Para casa e correção de sexta`
 
-18) Fazer a página Sobre estilizada
-19) Fazer a página Portfólio estilizada (com dados internos e consumindo api no github)
-20) Criar README.md do projeto
-21) Subir no github e garantir que o deploy ocorreu bem
-22) Customizar o projeto e mudar imagens
-23) Incluir links do github e do projeto no ar no Classroom
+17) Fazer a página Sobre estilizada
+18) Fazer a página Portfólio estilizada (com dados internos e consumindo api no github)
+19) Criar README.md do projeto
+20) Subir no github e garantir que o deploy ocorreu bem
+21) Customizar o projeto e mudar imagens
+22) Incluir links do github e do projeto no ar no Classroom
 
 ## 1. Rotas - React Router
 
