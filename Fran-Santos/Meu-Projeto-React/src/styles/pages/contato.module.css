@@ -8,7 +8,7 @@
 }
 
 .formInput {
-  width: 60%;
+  width: 50%;
   padding: .6rem 2rem;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -17,9 +17,9 @@
 }
 
 .formButton {
-  width: 60%;
+  width: 50%;
   padding: .6rem 2rem;
-  background-color: #4CAF50;
+  background-color: #3f096b;
   color: #fff;
   border: none;
   margin-top: 1rem;
@@ -29,5 +29,5 @@
 }
 
 .formButton:hover {
-  background-color: #4CA;
+  background-color: rgb(131, 28, 156);
 }
