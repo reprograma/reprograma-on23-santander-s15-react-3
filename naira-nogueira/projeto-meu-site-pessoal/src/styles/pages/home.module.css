@@ -1,0 +1,13 @@
+.texthome h1,p {
+    display: flex;
+    color: rgb(25, 22, 218);
+    text-align: center;
+    
+}
+
+.texthome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
