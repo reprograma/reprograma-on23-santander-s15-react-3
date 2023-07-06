@@ -7,7 +7,7 @@ import { useEffect, useState } from "react"
 const Portfolio = () => {
     const [repos, setRepos] = useState([])
 
-    let ids = ['625515839', '628268501', '632151063']
+    let ids = ['625515839', '628268501', '632151063'] // id dos meus projetos favoritos
 
     let listaRepoQuero = repos.filter(item => ids.find(id => id== item.id))
 
