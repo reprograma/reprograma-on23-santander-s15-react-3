@@ -99,22 +99,23 @@ Todas as páginas terão os componentes:
 9) Vamos começar a estilizar: incluir fonte, criar o css global e criar o css do menu
 10) Criar o componente Header estilizado e com props
 11) Criar o componente Footer estilizado e usar no Router
-12) Incluir conteúdo na página de contato estilizada (cria e integra firebase com variaveis de ambiente)
-13) Incluir config da vercel 
-14) Subir no github e fazer deploy (importante criar as variaveis de prod na vercel)
+12) Incluir conteúdo na página Contato estilizada
 
-`Para quarta`
+`Para segunda`
 
-15) Fazer a página Home estilizada
-16) Subir no github e verificar se o deploy subiu
+13) Criar e integrar firebase com variaveis de ambiente na página Contato
+14) Fazer a página Home estilizada
+15) Incluir config da vercel 
+16) Subir no github e fazer deploy (importante criar as variaveis de prod na vercel)
 
 `Para casa e correção de sexta`
 
-17) Fazer a página Quem sou estilizada
-18) Fazer a página Portfólio estilizada(com dados internos e consumindo api no github)
+17) Fazer a página Sobre estilizada
+18) Fazer a página Portfólio estilizada (com dados internos e consumindo api no github)
 19) Criar README.md do projeto
 20) Subir no github e garantir que o deploy ocorreu bem
-21) Incluir links do github e do projeto no ar no Classroom
+21) Customizar o projeto e mudar imagens
+22) Incluir links do github e do projeto no ar no Classroom
 
 ## 1. Rotas - React Router
 
@@ -298,7 +299,6 @@ import styles from './nome-do-arquivo.module.css'
 1) Criar as 2 páginas (Sobre e Portfólio consumindo a API do Github)
 2) Atualize esse projeto no seu github, inclua um read me contando tudo o que você aprendeu na aula e todas as informações sobre o projeto. 
 3) Atenção! A entrega deverá ser feita pelo classroom com os 2 links: do seu repositório e do seu projeto. Arraseee! E qualquer coisa, me chama!
-
 
 <br>
 
