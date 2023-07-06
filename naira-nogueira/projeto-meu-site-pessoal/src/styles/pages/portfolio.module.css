@@ -9,6 +9,10 @@
     position: relative;
   } */
 
+.mainPort img {
+    width: 400px;
+}
+
 .cardRepo {
     display: flex;
     flex-direction: row;
