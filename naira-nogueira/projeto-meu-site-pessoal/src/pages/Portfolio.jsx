@@ -7,7 +7,7 @@ import { useEffect, useState } from "react"
 const Portfolio = () => {
     const [repos, setRepos] = useState([])
 
-    let ids = ['625515839', '628268501', '632151063'] // id dos meus projetos favoritos
+    let ids = ['623649210', '625515839', '651895448'] // id dos meus projetos favoritos
 
     let listaRepoQuero = repos.filter(item => ids.find(id => id== item.id))
 
@@ -35,10 +35,13 @@ const Portfolio = () => {
         <div className={styles.mainPort}>
         <img src={portfolio} alt="github" />
         </div>
-        <div className={styles.trabalharRepos}>
+        <div className={styles.repoFavoritos}>
+          <div>
+            <h2>Meus Favoritos:</h2>
+          </div>
           <div>
           {listaRepoQuero.map((repo) => (
-          <div className={styles.cardRepo} key={repo.id}>
+          <div className={styles.cardReposit} key={repo.id}>
             <h3 className={styles.cardText}>{repo.name}</h3>
             <a className={styles.cardLink} href={repo.html_url} target="_blank"></a> 
           </div>

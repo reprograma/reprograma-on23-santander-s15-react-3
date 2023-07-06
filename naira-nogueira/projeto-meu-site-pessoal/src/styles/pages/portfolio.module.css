@@ -1,21 +1,42 @@
-/* .repoContainer {
+.repoContainer {
     display: flex;
-    width: 442px;
-    height: 148px;
-    border-radius: 8px;
-    padding: 20px;
+    align-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+  } 
+
+main {
     display: flex;
-    flex-direction: column;
-    position: relative;
-  } */
+    align-items: center;
+}
 
 .mainPort img {
-    width: 400px;
+    width: 25rem;
+    margin-left: 15rem;
+}
+
+h2 {
+    color: rgb(12, 12, 155);
+    text-align: center;
+    padding: 1rem;
+}
+
+.cardReposit {
+    color: rgba(21, 18, 189, 0.733);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1.3rem;
+}
+
+.repoFavoritos {
+    margin-left: 5rem;
+    margin-right: 7rem;
 }
 
 .cardRepo {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     background-color: white;
@@ -24,13 +45,10 @@
 
 .cardRepo:hover {
     
-    background-color: #7981ee;;
-}
+    background-color: #7981ee;
+} 
 
-/* .textTitle {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding: 2%;
-    font-size: 2.5rem;
-} */
+.cardReposit:hover {
+    background-color: #7981ee;
+} 
+

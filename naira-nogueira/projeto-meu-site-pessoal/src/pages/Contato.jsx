@@ -1,9 +1,10 @@
 import Header from "../components/Header"
 
 import database from '../service/firebase'
+
 import { ref, push, set } from 'firebase/database'
 
-import contato from '../assets/contatoo.png'
+import contato from '../assets/contato.png'
 
 import styles from '../styles/pages/contato.module.css'
 
@@ -46,10 +47,10 @@ const Contato = () => {
     <>
       <Header 
         title="Entre em contato" 
-        image={contato} 
       />
       
       <main>
+        <img src={contato} alt="" />
         <form className={styles.form} onSubmit={handleSubmit}>
           <input 
             className={styles.formInput}
@@ -73,7 +74,7 @@ const Contato = () => {
           />
           <button 
             className={styles.formButton} 
-            type="submit">Enviar Mensagem
+            type="submit">Enviar Mensagem 
           </button>
         </form>
       </main>
