@@ -1,4 +1,4 @@
-.texthome h1,p {
+.texthome {
     display: flex;
     color: rgb(25, 22, 218);
     text-align: center;
@@ -10,4 +10,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+h6 {
+    color: rgb(25, 22, 218);
+    font-size: 2rem;
+    padding: 2.2rem;
+}
+
+p {
+    font-size: 1.5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
 }

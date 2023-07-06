@@ -13,10 +13,10 @@ const Home = () => {
       />
       
       <div className={styles.texthome}>
-        <h1> Home </h1>
+        <h6>Sejam bem vindes!</h6>
         <p>Meu site pessoal tem como objetivo contar um pouco da minha história e mostrar os meus projetinhos no GitHub. <br></br>
 Ele foi desenvolvido como atividade avaliativa do curso de Front-End pela REPROGRAMA, a princípio o projeto foi iniciado em sala de aula com o auxílio da professora e finalizado com muito carinho por mim. 
-<br></br>Espero que gostem! 
+<br></br>Espero que gostem!
         </p>
       </div>
     </>

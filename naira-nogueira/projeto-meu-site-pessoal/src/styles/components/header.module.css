@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     gap: 4rem;
-    padding: 6rem;
+    padding: 4rem;
   }
   
   .headerTitle {
@@ -13,7 +13,7 @@
   }
   
   .headerImage {
-    width: 50%;
+    width: 45%;
   }
 
   header {
@@ -22,4 +22,8 @@
     align-items: center;
   }
 
+h1 {
+  display: flex;
+  padding: 2.5rem;
+}
   
