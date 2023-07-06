@@ -24,13 +24,10 @@ const Sobre = () => {
         </div>
       </main>
       <div className={style.nairaRedes}>
-        <div>
-          <a href="https://www.linkedin.com/in/n%C3%A1ira-nogueira-ba6257174/" target="_blank">Linkedin</a>
-          </div>
-        <div>
-          <a href="https://github.com/Nairanogueira" target="_blank">GitHub</a></div>
+          <a href="https://www.linkedin.com/in/n%C3%A1ira-nogueira-ba6257174/" target="_blank">Linkedin</a>    
+          <a href="https://github.com/Nairanogueira" target="_blank">GitHub</a>
       </div>
-    </>
+        </>
   )
 }
 

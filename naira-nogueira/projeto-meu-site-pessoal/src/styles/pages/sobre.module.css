@@ -17,6 +17,13 @@ main {
 
 .nairaRedes {
     display: flex;
-    font-size: 5rem;
-    list-style: none;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+a {
+    display: flex;
+    font-size: 2rem;
+    color: rgb(25, 22, 218);
+    text-decoration: none;
 }
