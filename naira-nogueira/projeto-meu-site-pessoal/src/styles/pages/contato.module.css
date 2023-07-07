@@ -38,3 +38,52 @@ img {
   .formButton:hover {
     background-color: #4CA;
   }
+
+  @media (max-width: 285px) {
+
+    main {
+      display: flex;
+      flex-direction: column;
+    }
+
+    img {
+      width: 30%;
+      align-items: center;
+      margin-left: 1rem;
+    }
+    
+    .form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .formInput {
+        width: 30%;
+        padding: .6rem 2rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-bottom: 1rem;
+        resize: vertical;
+        font-size: 1.2rem;
+      }
+      
+      .formButton {
+        width: 60%;
+        padding: .6rem 2rem;
+        background-color: #1c10ca;
+        color: #fff;
+        border: none;
+        margin-top: 1rem;
+        font-size: 1rem;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      .formButton:hover {
+        background-color: #4CA;
+      }
+    
+  
+  }

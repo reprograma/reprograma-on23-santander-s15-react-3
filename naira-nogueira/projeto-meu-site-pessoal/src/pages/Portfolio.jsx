@@ -33,7 +33,7 @@ const Portfolio = () => {
 
       <main>
         <div className={styles.mainPort}>
-        <img src={portfolio} alt="github" />
+          <img src={portfolio} alt="github" />
         </div>
         <div className={styles.repoFavoritos}>
           <div>
@@ -42,8 +42,9 @@ const Portfolio = () => {
           <div>
           {listaRepoQuero.map((repo) => (
           <div className={styles.cardReposit} key={repo.id}>
-            <h3 className={styles.cardText}>{repo.name}</h3>
-            <a className={styles.cardLink} href={repo.html_url} target="_blank"></a> 
+            <a className={styles.cardLink} href={repo.html_url} target="_blank">
+              <h3 className={styles.cardText}>{repo.name}</h3>
+            </a> 
           </div>
         ))
         }
@@ -51,11 +52,12 @@ const Portfolio = () => {
         </div>
       </main>
 
-      <div className={styles.repoConteiner}>
+      <div className={styles.repoContainer}>
         {repos.map((repo) => (
           <div className={styles.cardRepo} key={repo.id}>
-            <h3 className={styles.cardText}>{repo.name}</h3>
-            <a className={styles.cardLink} href={repo.html_url} target="_blank"></a> 
+            <a className={styles.cardLink} href={repo.html_url} target="_blank">
+              <h3 className={styles.cardText}>{repo.name}</h3>
+              </a> 
           </div>
         )
         )

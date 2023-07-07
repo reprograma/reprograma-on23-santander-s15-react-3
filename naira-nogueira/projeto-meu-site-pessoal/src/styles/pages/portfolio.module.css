@@ -1,13 +1,16 @@
 .repoContainer {
-    display: flex;
-    align-content: flex-start;
-    flex-direction: row;
-    align-items: center;
+    display: grid;
+    padding: 3rem;
+    word-break: break-all
   } 
 
 main {
     display: flex;
     align-items: center;
+}
+
+.cardLink {
+    font-size: 1rem;
 }
 
 .mainPort img {
