@@ -1,0 +1,15 @@
+.menuConteiner {
+    background-color: rgba(24, 21, 206, 0.295);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    padding: 2rem;
+    list-style: none;
+}
+
+.menuLink {
+    text-decoration: none;
+    color: rgb(25, 22, 218);
+    font-size: 1.5rem;
+}

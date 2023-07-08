@@ -1,0 +1,29 @@
+main {
+    display: flex;
+    align-items: center;
+}
+
+.nairaFoto {
+    width: 35rem;
+    margin-left: 10rem;
+}
+
+.nairaTexto {
+    color: rgb(25, 22, 218);
+    text-align: justify;
+    margin: 0%;
+    margin-right: 7rem;
+}
+
+.nairaRedes {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+a {
+    display: flex;
+    font-size: 2rem;
+    color: rgb(25, 22, 218);
+    text-decoration: none;
+}

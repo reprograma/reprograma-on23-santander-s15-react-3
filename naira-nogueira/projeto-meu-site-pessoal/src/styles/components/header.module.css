@@ -1,0 +1,29 @@
+.headerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding: 4rem;
+  }
+  
+  .headerTitle {
+    font-size: 3rem;
+    color: rgb(25, 22, 218);
+  }
+  
+  .headerImage {
+    width: 45%;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+h1 {
+  display: flex;
+  padding: 2.6rem;
+}
+  

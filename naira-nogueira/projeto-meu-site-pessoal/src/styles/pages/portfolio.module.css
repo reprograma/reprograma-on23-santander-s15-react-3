@@ -1,0 +1,57 @@
+.repoContainer {
+    display: grid;
+    padding: 3rem;
+    word-break: break-all
+  } 
+
+main {
+    display: flex;
+    align-items: center;
+}
+
+.cardLink {
+    font-size: 1rem;
+}
+
+.mainPort img {
+    width: 25rem;
+    margin-left: 15rem;
+}
+
+h2 {
+    color: rgb(12, 12, 155);
+    text-align: center;
+    padding: 1rem;
+}
+
+.cardReposit {
+    color: rgba(21, 18, 189, 0.733);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1.3rem;
+}
+
+.repoFavoritos {
+    margin-left: 5rem;
+    margin-right: 7rem;
+}
+
+.cardRepo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 1rem; 
+}
+
+.cardRepo:hover {
+    
+    background-color: #7981ee;
+} 
+
+.cardReposit:hover {
+    background-color: #7981ee;
+} 
+
