@@ -52,6 +52,11 @@ const Portfolio = () => {
         </div>
       </main>
 
+      <div className={styles.repoFavoritos}>
+          <div>
+            <h2>Outros repositórios:</h2>
+          </div>
+          </div>
       <div className={styles.repoContainer}>
         {repos.map((repo) => (
           <div className={styles.cardRepo} key={repo.id}>

@@ -1,7 +1,7 @@
 .repoContainer {
-    display: grid;
+    display: flex;
     padding: 3rem;
-    word-break: break-all
+    flex-wrap: wrap;
   } 
 
 main {
@@ -42,6 +42,9 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 300px;
+    min-width: 300px;
+    min-height: 100px;
     background-color: white;
     padding: 1rem; 
 }
