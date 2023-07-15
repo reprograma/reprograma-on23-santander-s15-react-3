@@ -1,0 +1,21 @@
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-bottom: 5%;
+    color: #474D68;
+}
+.title{
+    margin-bottom: 3%;
+}
+
+.text{
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-top: 0.5rem;
+}
